@@ -1,3 +1,39 @@
 :root{
-    
+  --background-header: #F5F5F5;
+  --light-text:  #212121;
+  --mainbg: #f5f4Fa;
+ }
+
+.header{
+ background-color: var(--background-header);
+ color:var(--light-text);
+}
+.accent{
+    color: #2196F3;
+   }
+.accents{
+    color: #000000;
+}
+.logo{
+    font-family: raleway, sans-seri;
+    font-weight: 700;
+    line-height: calc(31/26);
+}
+
+body{
+font-family: roboto, sans-serif;
+background-color: var(--background-header);
+color: var(--light-text);
+text-align: center;
+
+}
+a{ text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+p{
+    color: #757575;
+
 }
