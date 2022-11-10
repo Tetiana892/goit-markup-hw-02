@@ -1,39 +1,49 @@
 :root{
-  --background-header: #F5F5F5;
+  --primari-header-color: #F5F5F5;
+  --second-header-color:#F5F4FA;
   --light-text:  #212121;
-  --mainbg: #f5f4Fa;
- }
+  --second-text: #757575;
+  }
+ 
+a {text-decoration: none;}
+
+ul { list-style: none;}
+
+ /*----Header-----*/
 
 .header{
- background-color: var(--background-header);
- color:var(--light-text);
+ background-color: var(--primari-header-color);
 }
-.accent{
-    color: #2196F3;
-   }
-.accents{
-    color: #000000;
-}
+
 .logo{
-    font-family: raleway, sans-seri;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
+    font-size: 26;
     line-height: calc(31/26);
+    letter-spacing: 0.03;
+    color: #2196F3;
+}
+.accent {
+    color: #000000;}
+
+/*----Site nav-----*/
+
+.site-nav{
+ font-family: Roboto,sens-serif;
+ font-weight: 500;
+ font-size: 14;
+ line-heigh: 1.14;
+letter-spacing: 0.02;
+color: var(--ligh-text )
 }
 
-body{
-font-family: roboto, sans-serif;
-background-color: var(--background-header);
-color: var(--light-text);
-text-align: center;
+
+.site-nav.link.current: hover,
+.site-nav.link.current: focus{
+ color: #2196F3;
 
 }
-a{ text-decoration: none;
 
-}
-ul{
-    list-style: none;
-}
-p{
-    color: #757575;
 
-}
+
+
