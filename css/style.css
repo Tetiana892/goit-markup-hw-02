@@ -99,8 +99,8 @@ color: var(--ligh-text )
     letter-spacing: 0.03em;
     color: var(--second-text);
 }
-/*----About work-----*/
-.about-work{
+/*----About-----*/
+.about{
   background: var(--primari-header-color);
 }
 .about-title{
@@ -159,7 +159,7 @@ background: var(--primari-header-color);
     overflow: hidden;
   }
 .work-btm-original link{
-background: #2196F3;
+  background: #2196F3;
   font-family: Roboto, sens-serif;
   font-style: normal;
   font-weight: 500;
@@ -168,7 +168,7 @@ background: #2196F3;
   letter-spacing: 0.03em;
   color:#FFFFFF;
   }
-.work-btm link{
+.work-btn-link{
    background: #F5F4FA;;
    font-family: Roboto, sens-serif;
     font-style: normal;
@@ -178,13 +178,34 @@ background: #2196F3;
     letter-spacing: 0.03em;
     color: var(--light-text)
 }
+.work-list-list{
+   background: linear-gradient(0deg, #EEEEEE, #EEEEEE),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);;
+}
+
+.work-title{
+  font-family: Roboto, sens-serif;
+    font-weight: 700;
+    font-size: 18xp;
+    line-height: 36xp;
+    letter-spacing: 0.03em;
+    color: var(--light-text);
+}
+.work-item{
+  font-family: Roboto, sens-serif;
+    font-weight: 400;
+    font-size: 16xp;
+    line-height: 30xp;
+    letter-spacing: 0.03em;
+    color: var(--second-text);
+}
 
 /*----Footer-----*/
 
-.footer {
+.footer{
   background: #2F303A;
 }
-.footer-links link {
+.footer-links link{
    font-family: Roboto, sens-serif;
    font-style: normal;
     font-weight: 400;
@@ -193,6 +214,6 @@ background: #2196F3;
     letter-spacing: 0.03em;
     color: #FFFFFF;
   }
-.logo.footer-accent {
+.logo.footer-accent{
   color: #FFFFFF;
 }
