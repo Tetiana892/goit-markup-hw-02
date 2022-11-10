@@ -113,3 +113,76 @@ color: var(--ligh-text )
 }
 
 /*----Comand-----*/
+.comand{
+  background:#F5F4FA;
+}
+.comand-pre-title{
+    font-family: Roboto, sens-serif;
+    font-weight: 700;
+    font-size: 36xp;
+    line-height: 42xp;
+    letter-spacing: 0.03em;
+    color: var(--light-text);
+}
+.comand-items{
+background: var(--primari-header-color);
+}
+.comand-title{
+   font-family: Roboto, sens-serif;
+    font-weight: 500;
+    font-size: 16xp;
+    line-height: 19xp;
+    letter-spacing: 0.03em;
+    color: var(--light-text);
+}
+.comand-post-title{
+ font-family: Roboto, sens-serif;
+  font-weight: 400;
+  font-size: 16xp;
+  line-height: 19xp;
+  letter-spacing: 0.03em;
+  color: var(--second-text);
+}
+/*----Works-----*/
+ 
+.visually-hidden{
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.work-btm link{
+   background: #2196F3;
+   font-family: Roboto, sens-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16xp;
+    line-height: 26xp;
+    letter-spacing: 0.03em;
+    color: var(--light-text)
+}
+
+/*----Footer-----*/
+
+.footer {
+  background: #2F303A;
+}
+.footer-links link {
+   font-family: Roboto, sens-serif;
+   font-style: normal;
+    font-weight: 400;
+    font-size: 14xp;
+    line-height: 24xp;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+.logo.footer-accent {
+  color: #FFFFFF;
+}
