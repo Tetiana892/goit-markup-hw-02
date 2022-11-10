@@ -158,8 +158,18 @@ background: var(--primari-header-color);
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+.work-btm-original link{
+background: #2196F3;
+  font-family: Roboto, sens-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16xp;
+  line-height: 26xp;
+  letter-spacing: 0.03em;
+  color:#FFFFFF;
+  }
 .work-btm link{
-   background: #2196F3;
+   background: #F5F4FA;;
    font-family: Roboto, sens-serif;
     font-style: normal;
     font-weight: 500;
