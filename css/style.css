@@ -5,9 +5,9 @@
   --second-text: #757575;
   }
  
-a {text-decoration: none;}
+.link {text-decoration: none;}
 
-ul { list-style: none;}
+.list { list-style: none;}
 
  /*----Header-----*/
 
@@ -18,9 +18,9 @@ ul { list-style: none;}
 .logo{
     font-family: Raleway, sans-serif;
     font-weight: 700;
-    font-size: 26;
-    line-height: calc(31/26);
-    letter-spacing: 0.03;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     color: #2196F3;
 }
 .accent {
@@ -28,22 +28,88 @@ ul { list-style: none;}
 
 /*----Site nav-----*/
 
-.site-nav{
+.header-nav .link{
  font-family: Roboto,sens-serif;
  font-weight: 500;
- font-size: 14;
- line-heigh: 1.14;
-letter-spacing: 0.02;
+ font-size: 14px;
+ line-height: 16px;
+letter-spacing: 0.02em;
 color: var(--ligh-text )
 }
 
 
-.site-nav.link.current: hover,
-.site-nav.link.current: focus{
- color: #2196F3;
+.header-nav .link.current:hover,
+.header-nav .link.current:focus{
+  color: #2196F3;
 
 }
+.header-nav .link.current{
+  color: var(--light-text);
+}
 
+.header-tel{
+  color: var(--second-text)
+}
 
+/*----Hero-----*/
 
+.hero{
+  background:#2F303A; 
+  text-align: center;
+}
 
+.hero-title{
+  font-family: Roboto, sens-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height:60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero-btn{
+  background: #2196F3;
+  font-family: Roboto, sens-serif;
+    font-weight: 700;
+    font-size: 16xp;
+    line-height: 30px;
+    text-transform: uppercase;
+      color: #FFFFFF;
+}
+
+/*----Terms-----*/
+.terms{
+  background:var(--primari-header-color);
+}
+.terms-title{
+    font-family: Roboto, sens-serif;
+    font-weight: 700;
+    font-size: 14xp;
+    line-height: 16xp;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-text);
+}
+.terms-item{
+    font-family: Roboto, sens-serif;
+    font-weight: 400;
+    font-size: 14xp;
+    line-height: 14xp;
+    letter-spacing: 0.03em;
+    color: var(--second-text);
+}
+/*----About work-----*/
+.about-work{
+  background: var(--primari-header-color);
+}
+.about-title{
+  font-family: Roboto, sens-serif;
+  font-weight: 700;
+  font-size: 36xp;
+  line-height: 42xp;
+  letter-spacing: 0.03em;
+  color: var(--light-text);
+}
+
+/*----Comand-----*/
