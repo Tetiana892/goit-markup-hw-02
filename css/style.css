@@ -79,7 +79,7 @@ color: var(--light-text);
   color: var(--another-text);
 }
 
-.hero-btn{
+.hero-btn-pointer {
   background-color: #2196F3;
   font-family: inherit;
   font-weight: 700;
@@ -87,6 +87,7 @@ color: var(--light-text);
   line-height: 1.87;
   text-transform: uppercase;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 /*----Terms-----*/
@@ -145,24 +146,26 @@ background-color: var(--primari-header-color);
 /*----Works button-----*/
  
 
-}
-.work-btn-original.link{
-  background-color: #2196F3;
-    font-family: inherit;
+.work-btn-original-pointer{
+   background-color: #2196F3;
+    font-family: Roboto,sens-serif;
     font-weight: 500;
     font-size: 16xp;
     line-height: 1.63;
     color: #FFFFFF;
-  }
-.work-btn.link{
+    cursor: pointer;
+    }
+
+.work-btn-pointer{
    background-color: #F5F4FA;;
-   font-family: inherit;
+   font-family: Roboto,sens-serif;
     font-weight: 500;
     font-size: 16xp;
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
-}
+    cursor: pointer;
+    }
 
 /*----Works-----*/
 .work-items{
