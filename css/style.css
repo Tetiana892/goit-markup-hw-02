@@ -93,7 +93,7 @@ color: var(--light-text);
 }
 
 .hero-btn-pointer {
-  background: #2196F3;
+  background:#2196F3;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -105,7 +105,8 @@ color: var(--light-text);
 }
 .hero-btn-pointer:hover,
 .hero-btn-pointer:focus{
-  background: #2196F3;
+ background: #188CE8;
+ color: #FFFFFF;
 }
 
 /*----Terms-----*/
