@@ -1,6 +1,10 @@
 :root{
-  --primari-header-color: #F5F5F5;
+  --primari-header-color:#FFFFFF;
   --second-header-color:#F5F4FA;
+  --last-header-color: #2F303A;
+  --accent-color:#2196F3;
+  --accent-second-color: #000000;
+  --comand-header-color: #F5F4FA;
   --light-text:  #212121;
   --second-text: #757575;
   --another-text: #FFFFFF;
@@ -12,9 +16,10 @@
 
 body{
 font-family: Roboto,sens-serif;
+background-color:var(--primari-header-color);
 color: var(--light-text);
-
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -32,17 +37,16 @@ color: var(--light-text);
  background-color: var(--primari-header-color);
 }
 
-
 .logo{
   font-weight: 700;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: var(--accent-color);
 }
 .accent {
-  color: #000000;}
+  color: var(--accent-second-color);}
 
 /*----Site nav-----*/
 
@@ -56,17 +60,26 @@ color: var(--light-text);
 
 .header-nav .link.current:hover,
 .header-nav .link.current:focus{
- color: #2196F3;
+ color: var(--accent-color);
+}
+.header-mail.link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
+  color: var(--second-text);
+}
+.header-mail.link:hover,
+.header-mail.link:focus{
+  color: var(--accent-color);
 }
 
-.header-tel{
- color: var(--second-text)
-}
+
 
 /*----Hero-----*/
 
 .hero{
-  background-color:#2F303A; 
+  background-color: var(--last-header-color); 
   text-align: center;
 }
 
@@ -80,14 +93,19 @@ color: var(--light-text);
 }
 
 .hero-btn-pointer {
-  background-color: #2196F3;
+  background: #2196F3;
   font-family: inherit;
   font-weight: 700;
-  font-size: 16xp;
+  font-size: 16px;
   line-height: 1.87;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
   color: #FFFFFF;
   cursor: pointer;
+}
+.hero-btn-pointer:hover,
+.hero-btn-pointer:focus{
+  background: #2196F3;
 }
 
 /*----Terms-----*/
@@ -96,13 +114,13 @@ color: var(--light-text);
 }
 .terms-title{
     font-weight: 700;
-    font-size: 14xp;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .terms-item{
-    font-size: 14xp;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--second-text);
@@ -110,21 +128,22 @@ color: var(--light-text);
 /*----About-----*/
 .about{
   background-color: var(--primari-header-color);
+  text-align: center;
 }
 .about-title{
   font-weight: 700;
-  font-size: 36xp;
+  font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
 /*----Comand-----*/
 .comand{
-  background-color:#F5F4FA;
+  background-color: var(--comand-header-color);
 }
 .comand-pre-title{
     font-weight: 700;
-    font-size: 36xp;
+    font-size: 36px;
     line-height: 1.25;
     letter-spacing: 0.03em;
 }
@@ -133,12 +152,12 @@ background-color: var(--primari-header-color);
 }
 .comand-title{
     font-weight: 500;
-    font-size: 16xp;
+    font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .comand-post-title{
-  font-size: 16xp;
+  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-text);
@@ -146,26 +165,23 @@ background-color: var(--primari-header-color);
 /*----Works button-----*/
  
 
-.work-btn-original-pointer{
-   background-color: #2196F3;
-    font-family: Roboto,sens-serif;
-    font-weight: 500;
-    font-size: 16xp;
-    line-height: 1.63;
-    color: #FFFFFF;
-    cursor: pointer;
-    }
+.work-btn-pointer:hover,
+.work-btn-pointer:focus{
+background: #2196F3;
+color: #FFFFFF;
+}
 
 .work-btn-pointer{
-   background-color: #F5F4FA;;
    font-family: Roboto,sens-serif;
     font-weight: 500;
-    font-size: 16xp;
+    font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    background: #F5F4FA;
     color: #212121;
     cursor: pointer;
     }
+
 
 /*----Works-----*/
 .work-items{
@@ -175,13 +191,13 @@ background-color: var(--primari-header-color);
 
 .work-title{
     font-weight: 700;
-    font-size: 18xp;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--light-text);
 }
 .work-text{
-    font-size: 16xp;
+    font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--second-text);
@@ -190,24 +206,24 @@ background-color: var(--primari-header-color);
 /*----Footer-----*/
 
 .footer{
-  background-color: #2F303A;
+  background-color: var(--last-header-color);
 }
 .accent-footer{
   color: var(--another-text);
 }
-.footer-items {
-   font-style: normal;}
+.footer-items.list {
+ font-style: normal;}
 
-  .footer-item.link{
-  font-size: 14xp;
+.footer-item.link:hover,
+.footer-items.link:focus{
+  color: var(--another-text);
+}
+ .footer-item.link{
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-links.link{
-  font-size: 14xp;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color:var(--another-text);
-}
+
+ 
   
