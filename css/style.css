@@ -8,6 +8,7 @@
   --light-text:  #212121;
   --second-text: #757575;
   --another-text: #FFFFFF;
+  --work-bg-color:#EEEEEE;
   }
  
 .link {text-decoration: none;}
@@ -93,20 +94,20 @@ color: var(--light-text);
 }
 
 .hero-btn-pointer {
-  background:#2196F3;
+  background: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: var(--another-text);
   cursor: pointer;
 }
 .hero-btn-pointer:hover,
 .hero-btn-pointer:focus{
- background: #188CE8;
- color: #FFFFFF;
+ background: var(--accent-color);
+ color: var(--another-text);
 }
 
 /*----Terms-----*/
@@ -129,7 +130,6 @@ color: var(--light-text);
 /*----About-----*/
 .about{
   background-color: var(--primari-header-color);
-  text-align: center;
 }
 .about-title{
   font-weight: 700;
@@ -168,8 +168,8 @@ background-color: var(--primari-header-color);
 
 .work-btn-pointer:hover,
 .work-btn-pointer:focus{
-background: #2196F3;
-color: #FFFFFF;
+background: var(--accent-color);
+color:var(--another-text);
 }
 
 .work-btn-pointer{
@@ -178,16 +178,16 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    background: #F5F4FA;
-    color: #212121;
+    background: var(--comand-header-color);
+    color: var(--light-text);
     cursor: pointer;
     }
 
 
 /*----Works-----*/
 .work-items{
-  background-color: linear-gradient(0deg, #EEEEEE, #EEEEEE),
-  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  background-color:var(--work-bg-color);
+
 }
 
 .work-title{
